@@ -39,6 +39,8 @@ export default function Venue({ isAuthenticated }) {
       });
   }, []);
 
+
+  
   
   useEffect(() => {
     if (selectedVenue) {
